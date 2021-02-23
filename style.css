@@ -1,0 +1,118 @@
+body{margin-left: 25%;
+   font-family: Arial;
+    margin-top: 1%;
+     background-color:lightgray;}
+
+#directionGroup {display: none;}
+
+#tenxtenSquare{
+  margin-bottom:5px;
+  background-image: url(https://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-25.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:1000px ;
+  border: solid black;
+  margin-left: -18%;
+  
+}
+
+table tr td {
+  height:62px;
+  width:60px;
+}
+.attackClass{
+  
+  background-image: url(https://media1.giphy.com/media/26BRx71hqRexBe7Wo/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5px; 
+  height: 5px;
+}
+
+.button {
+    
+  padding: 10px 25px;     
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color:green;
+        border: none;
+        border-radius: 50%;
+        
+        
+}
+.attackbutton {
+    
+  padding: 10px 25px;     
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: red;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0 5px #606060;
+        
+}
+
+.button:active{
+  background-color: #4F4F4F;
+          box-shadow: 0 5px #1E1E1E;
+          transform: translateY(4px);
+}
+
+label
+{
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+select {
+     /* margin: 50px; */
+    width: 85px;
+    padding: 0px 0px 2px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 36px;
+    background: #eee
+}
+
+
+select::-ms-expand { 
+    display: none; /* remove default arrow in IE 10 and 11 */
+}
+
+#directionContainer{
+  padding-left:50px; 
+  display:inline-block; 
+  margin-left: 30px;
+}
+
+.box-wrapper {
+  width: 100px;
+  height: 100px;
+      float: left;
+    padding-left: 50px;
+}
+
+
+.displayDReport{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  float:left;
+  background-color:white; 
+
+}
+.displayDReport:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 16px 16px;
+}

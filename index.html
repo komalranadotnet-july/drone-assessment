@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <title>Toy Drone</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+  
+ <div>
+  
+  <div id="tableContainer">
+<table id="tenxtenSquare">
+   
+</table>
+</div>
+<div id="panelContainer">
+<label>X Position:</label>
+    <select name="xValue" id="xValue">
+      <option value=0>0</option>
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+      <option value=5>5</option>
+      <option value=6>6</option>
+      <option value=7>7</option>
+      <option value=8>8</option>
+      <option value=9>9</option>
+    </select>
+    <label>Y Position:</label>
+    <select name="yValue" id="yValue">
+      <option value=0>0</option>
+      <option value=1>1</option>
+      <option value=2>2</option>
+      <option value=3>3</option>
+      <option value=4>4</option>
+      <option value=5>5</option>
+      <option value=6>6</option>
+      <option value=7>7</option>
+      <option value=8>8</option>
+      <option value=9>9</option>
+    </select>
+ <label>Facing:</label>   
+<select name="droneManagement" id="droneManagement">
+  <option value="NORTH">NORTH</option>
+  <option value="EAST">EAST</option>
+  <option value="SOUTH">SOUTH</option>
+  <option value="WEST">WEST</option>
+</select>
+<button class="button" onclick="placeToyDrone();">PLACE</button>
+</br></br>
+
+<div id="directionGroup">
+  <button class="button" onclick="moveToyDrone();">MOVE</button>
+  <button class="button" onclick="changeDirection('left');">LEFT</button>
+  <button class="button" onclick="changeDirection('right');">RIGHT</button>
+  <button class="attackbutton" onclick="toyDroneAttack();">ATTACK</button>
+
+</div>
+
+<br><br>
+<div id="displayDReport" class="displayDReport">  
+</div>
+
+</div>
+</body>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
